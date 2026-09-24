@@ -1,0 +1,167 @@
+.profil-header {
+    background: linear-gradient(135deg, #0755ad, #008fe5);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.profil-header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.profil-header p {
+    font-size: 16px;
+}
+
+.profil-section {
+    padding: 70px 20px;
+    background: #f5f8fc;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.profil-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 40px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    margin-bottom: 70px;
+}
+
+.profil-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.profil-text {
+    padding: 20px 0;
+}
+
+.profil-text span,
+.judul-profil span {
+    color: #0873d1;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.profil-text h2 {
+    color: #12395f;
+    font-size: 30px;
+    margin: 10px 0 20px;
+}
+
+.profil-text p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.judul-profil {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.judul-profil h2 {
+    color: #12395f;
+    font-size: 34px;
+    margin: 8px 0;
+}
+
+.judul-profil p {
+    color: #777;
+}
+
+.visi-misi {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 25px;
+}
+
+.visi-card,
+.misi-card,
+.tujuan-box {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+
+    border-top: 5px solid #0873d1;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e8f3ff;
+    border-radius: 12px;
+
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.visi-card h3,
+.misi-card h3,
+.tujuan-box h3 {
+    color: #12395f;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.visi-card p,
+.misi-card li,
+.tujuan-box p {
+    color: #666;
+    line-height: 1.8;
+}
+
+.misi-card ol {
+    padding-left: 22px;
+}
+
+.misi-card li {
+    margin-bottom: 12px;
+}
+
+.tujuan-box {
+    margin-top: 25px;
+}
+
+.tujuan-box p {
+    margin-top: 10px;
+}
+
+
+/* HP */
+
+@media (max-width: 768px) {
+
+    .profil-box {
+        grid-template-columns: 1fr;
+    }
+
+    .visi-misi {
+        grid-template-columns: 1fr;
+    }
+
+    .profil-header h1 {
+        font-size: 30px;
+    }
+
+}
