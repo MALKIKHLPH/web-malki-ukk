@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\web-sekolah-ukk-malki\resources\views/guru/index.blade.php ENDPATH**/ ?>
